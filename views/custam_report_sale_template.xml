@@ -7,11 +7,10 @@
 
                 <div class="row mb32">
                     <div class="col-4">
-                        <h2>
+                        <h2 style="font-family: 'EmblemaOne' !important;">
                             <t t-if="not (env.context.get('proforma', False) or is_pro_forma)">
                                 <span t-if="doc.state not in ['draft','sent']">Orden # </span>
-                                <span t-if="doc.state in ['draft','sent']"
-                                    style="font-family: 'EmblemaOne';">Presupuesto # </span>
+                                <span t-if="doc.state in ['draft','sent']">Presupuesto # </span>
                             </t>
                             <t t-if="env.context.get('proforma', False) or is_pro_forma">
                                 <span>Factura Pro-Forma # </span>
@@ -238,6 +237,18 @@
     </template>
 
     <template id="external_layout_boxed" inherit_id="web.external_layout_boxed">
+        <xpath expr="//t[@t-call='web.address_layout']" position="replace"></xpath>
+    </template>
+
+    <template id="external_layout_background" inherit_id="web.external_layout_background">
+        <xpath expr="//t[@t-call='web.address_layout']" position="replace"></xpath>
+    </template>
+
+    <template id="external_layout_clean" inherit_id="web.external_layout_clean">
+        <xpath expr="//t[@t-call='web.address_layout']" position="replace"></xpath>
+    </template>
+
+    <template id="external_layout_standard" inherit_id="web.external_layout_standard">
         <xpath expr="//t[@t-call='web.address_layout']" position="replace"></xpath>
     </template>
 </odoo>
