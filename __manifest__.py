@@ -13,13 +13,7 @@
     'application': True,
 
     'depends': ['sale'],
-    
-    'assets': {
-        'web.report_assets_common': [
-            'sales_quotes_report_custom/static/src/css/fonts.css',
-        ],
-    },
-    
+        
     'data': [
         'views/custam_report_sale_template.xml',
     ],
