@@ -5,7 +5,7 @@
     'description': """Agrega un diseño predeterminado de los reportes de las ventas.""",
 
     'author': "DGV",
-    # 'website': "http://www.yourcompany.com",
+    'website': "https://github.com/AlfaSystemas5457/sales_quotes_report_custom",
 
     'category': 'Uncategorized',
     'version': '0.1',

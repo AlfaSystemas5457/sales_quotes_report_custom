@@ -1,4 +1,4 @@
 @font-face {
     font-family: 'EmblemaOne';
-    src: url('/sales_quotes_report_custom/static/src/fonts/EmblemaOne-Regular.ttf') format('truetype');
+    src: url('/sales_quotes_report_custom/static/src/fonts/EmblemaOne-Regular.ttf');
 }
