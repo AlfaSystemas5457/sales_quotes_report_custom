@@ -16,5 +16,6 @@
         
     'data': [
         'views/custam_report_sale_template.xml',
+        'views/view_assets.xml',
     ],
 }
