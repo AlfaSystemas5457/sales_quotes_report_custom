@@ -7,7 +7,7 @@
 
                 <div class="row mb32">
                     <div class="col-4">
-                        <h3>
+                        <h3 style="font-size: 20px;">
                             <t t-if="not (env.context.get('proforma', False) or is_pro_forma)">
                                 <span t-if="doc.state not in ['draft','sent']">Orden # </span>
                                 <span t-if="doc.state in ['draft','sent']">Presupuesto # </span>
