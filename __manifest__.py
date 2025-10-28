@@ -10,10 +10,10 @@
     'category': 'Uncategorized',
     'version': '0.1',
     'sequence': 1,
-    'application': True,
+    'application': False,
 
     'depends': ['sale'],
-        
+
     'data': [
         'views/custam_report_sale_template.xml',
         'views/view_assets.xml',

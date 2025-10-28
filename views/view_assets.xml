@@ -1,8 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <odoo>
-    <template id="report_assets_common" name="New font" inherit_id="web.report_assets_common">
+    <template id="report_assets_common"
+        name="New font"
+        inherit_id="web.report_layout">
         <xpath expr=".">
-            <link rel="stylesheet" type="text/scss"
+            <link rel="stylesheet"
+                type="text/scss"
                 href="/sales_quotes_report_custom/static/src/scss/fonts.scss" />
         </xpath>
     </template>
