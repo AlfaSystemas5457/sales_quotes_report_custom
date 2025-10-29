@@ -4,7 +4,7 @@
         inherit_id="sale.report_saleorder_document">
         <xpath expr="//div[@class='page']"
             position="replace">
-            <div class="page">
+            <div class="page border-top pt-2">
                 <div class="oe_structure"/>
 
                 <div class="row mb32"
